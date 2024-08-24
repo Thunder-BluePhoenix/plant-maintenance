@@ -1,7 +1,7 @@
 app_name = "plant_maintenance"
 app_title = "Plant Maintenance"
-app_publisher = "BluePhoenix"
-app_description = "Maintenance of plants"
+app_publisher = "Rahul Sarkar"
+app_description = "maintenance of plants"
 app_email = "rahulsarkar007005@gmail.com"
 app_license = "mit"
 
