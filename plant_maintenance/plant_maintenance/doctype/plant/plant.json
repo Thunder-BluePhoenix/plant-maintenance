@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "plant_code",
+  "company",
   "company_code",
   "plant_name",
   "plant_name_2",
@@ -29,6 +30,7 @@
    "unique": 1
   },
   {
+   "fetch_from": "company.custom_company_code",
    "fieldname": "company_code",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -88,11 +90,17 @@
    "fieldname": "vendnoplnt",
    "fieldtype": "Data",
    "label": "VendNoPlnt"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-24 09:46:20.481308",
+ "modified": "2024-09-14 17:12:20.626988",
  "modified_by": "Administrator",
  "module": "Plant Maintenance",
  "name": "Plant",
