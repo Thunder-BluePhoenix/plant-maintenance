@@ -12,6 +12,8 @@
   "plant_name",
   "plant_name_2",
   "vendnoplnt",
+  "drug_license_no",
+  "gst_registration_number",
   "column_break_xwaj",
   "house_no_and_street",
   "city",
@@ -96,11 +98,21 @@
    "fieldtype": "Link",
    "label": "Company",
    "options": "Company"
+  },
+  {
+   "fieldname": "gst_registration_number",
+   "fieldtype": "Data",
+   "label": "GST Registration Number"
+  },
+  {
+   "fieldname": "drug_license_no",
+   "fieldtype": "Data",
+   "label": "Drug License No"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-14 17:12:20.626988",
+ "modified": "2024-10-15 09:09:14.154789",
  "modified_by": "Administrator",
  "module": "Plant Maintenance",
  "name": "Plant",
