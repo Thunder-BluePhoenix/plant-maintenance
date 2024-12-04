@@ -14,6 +14,7 @@
   "vendnoplnt",
   "drug_license_no",
   "gst_registration_number",
+  "batch_number_template",
   "column_break_xwaj",
   "house_no_and_street",
   "city",
@@ -108,11 +109,17 @@
    "fieldname": "drug_license_no",
    "fieldtype": "Data",
    "label": "Drug License No"
+  },
+  {
+   "fieldname": "batch_number_template",
+   "fieldtype": "Link",
+   "label": "Batch Number Template",
+   "options": "Batch Number Template"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-15 09:09:14.154789",
+ "modified": "2024-11-27 12:48:56.405741",
  "modified_by": "Administrator",
  "module": "Plant Maintenance",
  "name": "Plant",
