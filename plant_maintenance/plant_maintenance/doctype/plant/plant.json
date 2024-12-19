@@ -21,7 +21,9 @@
   "state",
   "pin_code",
   "country",
-  "address"
+  "address",
+  "pre_operations_print_format",
+  "post_operations_print_format"
  ],
  "fields": [
   {
@@ -115,11 +117,23 @@
    "fieldtype": "Link",
    "label": "Batch Number Template",
    "options": "Batch Number Template"
+  },
+  {
+   "fieldname": "pre_operations_print_format",
+   "fieldtype": "Link",
+   "label": "Pre Operations Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "post_operations_print_format",
+   "fieldtype": "Link",
+   "label": "Post Operations Print Format",
+   "options": "Print Format"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-27 12:48:56.405741",
+ "modified": "2024-12-19 12:31:40.303601",
  "modified_by": "Administrator",
  "module": "Plant Maintenance",
  "name": "Plant",
