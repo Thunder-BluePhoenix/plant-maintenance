@@ -23,7 +23,13 @@
   "country",
   "address",
   "pre_operations_print_format",
-  "post_operations_print_format"
+  "post_operations_print_format",
+  "section_break_aufv",
+  "machine_cost_account",
+  "column_break_ihrs",
+  "labour_cost_account",
+  "column_break_musw",
+  "over_heads_cost_account"
  ],
  "fields": [
   {
@@ -129,11 +135,41 @@
    "fieldtype": "Link",
    "label": "Post Operations Print Format",
    "options": "Print Format"
+  },
+  {
+   "fieldname": "section_break_aufv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "machine_cost_account",
+   "fieldtype": "Link",
+   "label": "Machine Cost Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_musw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "over_heads_cost_account",
+   "fieldtype": "Link",
+   "label": "Over Heads Cost Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_ihrs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "labour_cost_account",
+   "fieldtype": "Link",
+   "label": "Labour Cost Account",
+   "options": "Account"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-19 12:31:40.303601",
+ "modified": "2025-03-24 15:19:01.946648",
  "modified_by": "Administrator",
  "module": "Plant Maintenance",
  "name": "Plant",
